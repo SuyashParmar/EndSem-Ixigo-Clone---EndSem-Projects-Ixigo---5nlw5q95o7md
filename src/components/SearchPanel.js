@@ -6,7 +6,7 @@ const SearchPanel = ({ onSearch }) => {
 
   useEffect(() => {
     const fetchCities = async () => {
-      const projectID = 'f104bi07c490'; // Replace with your actual project ID
+      const projectID = '5nlw5q95o7md'; // Replace with your actual project ID
       const response = await fetch('https://academics.newtonschool.co/api/v1/bookingportals/city?limit=40', {
         headers: {
           'projectID': projectID
