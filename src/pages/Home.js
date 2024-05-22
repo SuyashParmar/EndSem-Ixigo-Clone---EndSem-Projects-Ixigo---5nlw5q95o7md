@@ -6,7 +6,7 @@ const Home = () => {
   const [hotels, setHotels] = useState([]);
 
   const handleSearch = async (city) => {
-    const projectID = 'f104bi07c490'; // Replace with your actual project ID
+    const projectID = '5nlw5q95o7md'; // Replace with your actual project ID
     const response = await fetch(`https://academics.newtonschool.co/api/v1/bookingportals/hotel?search={"location":"${city}"}`, {
       headers: {
         'projectID': projectID,
